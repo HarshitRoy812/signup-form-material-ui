@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/signup-form-material-ui/static/css/main.e7c511b0.css",
+    "main.js": "/signup-form-material-ui/static/js/main.72f360d1.js",
+    "static/js/787.856e1621.chunk.js": "/signup-form-material-ui/static/js/787.856e1621.chunk.js",
+    "static/media/univ.png": "/signup-form-material-ui/static/media/univ.630a25c4b87f4b7c742a.png",
+    "static/media/wallpaper.png": "/signup-form-material-ui/static/media/wallpaper.90115370c5b144058a65.png",
+    "static/media/logo.png": "/signup-form-material-ui/static/media/logo.798f0ead6de49f1d8f1f.png",
+    "static/media/alef-bold-webfont.woff": "/signup-form-material-ui/static/media/alef-bold-webfont.495b8d43c92c559ed6cc.woff",
+    "static/media/alef-bold-webfont.woff2": "/signup-form-material-ui/static/media/alef-bold-webfont.5495c96096dff9ba5ce8.woff2",
+    "index.html": "/signup-form-material-ui/index.html",
+    "main.e7c511b0.css.map": "/signup-form-material-ui/static/css/main.e7c511b0.css.map",
+    "main.72f360d1.js.map": "/signup-form-material-ui/static/js/main.72f360d1.js.map",
+    "787.856e1621.chunk.js.map": "/signup-form-material-ui/static/js/787.856e1621.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e7c511b0.css",
+    "static/js/main.72f360d1.js"
+  ]
+}
