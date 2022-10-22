@@ -1,13 +1,122 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,700;0,800;1,600&display=swap');
+
+
+@font-face {
+  font-family: 'alefbold';
+  src: url('alef-bold-webfont.woff2') format('woff2'),
+       url('alef-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*
+{
+  margin : 0;
+  padding : 0;
+  box-sizing : border-box;
+}
+
+body 
+{
+  background-image : url('./images/wallpaper.png');
+  background-position : center;
+  background-repeat : no-repeat;
+  background-size : cover;
+}
+
+.container 
+{
+  position : absolute;
+  top : 50%;
+  left : 50%;
+  height : 66vh;
+  width : 60vw;
+  transform : translate(-50%,-50%);
+  display : flex;
+  flex-direction : row;
+}
+.container_wallpaper 
+{
+  height : 100%;
+  width : 400px;
+  background-image : linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('./images/univ.png');
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  display : flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top : 10px;
+}
+.container_main 
+{
+  height : 100%;
+  flex-grow: 100;
+  background : white;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  display : flex;
+  flex-direction : column;
+}
+
+.language 
+{
+  align-self : flex-end;
+  margin-right: 10px;
+}
+
+.signup_heading 
+{
+  color : #8338ec;
+  font-size : 22px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  align-self: center;
+}
+
+.wallpaper_heading 
+{
+  color : white;
+  font-family: 'Poppins';
+  font-size : 25px;
+  line-height: 3.2rem;
+  letter-spacing: -1px;
+  font-weight: 600;
+}
+
+.wallpaper_context 
+{
+  color : white;
+  font-family : 'Poppins';
+  letter-spacing: -1px;
+  font-size : 16px;
+  font-weight: 200;
+  position : relative;
+  bottom : 7px;
+}
+
+.logo 
+{
+  height : 100px;
+  width : 100px;  
+}
+
+.signup_extra
+{
+  margin-top : 15px;
+  width : 100%;
+  display : flex;
+  flex-direction: row;
+  align-items : center;
+  justify-content: space-around;
+}
+
+.signup_extra h2
+{
+  font-family: 'Poppins';
+  font-weight: 600;
+  color : #495057;
+  position: relative;
+  top : 5px;
 }
