@@ -3,3 +3,5 @@
 
 # Installation of Material UI
 - To install the required packages, type the following command : **npm install**
+
+# Note that this is a non-working site, this site is just for design purposes
